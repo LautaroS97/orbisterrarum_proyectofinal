@@ -1,0 +1,8 @@
+.video{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: map-get($map: $palette, $key: 'tertiary');
+    font-family: 'Marcellus', serif;
+    text-align: justify;
+    font-size: 1.095rem;
+}

@@ -1,0 +1,50 @@
+.encabezado{
+    
+    &:hover{
+    opacity: 70%;
+    }
+
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.buybuttom{
+    width: 240px;
+    height: 70px;
+    background-color: map-get($map: $palette, $key: 'secondary');
+    @include letra-oscura;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: black double 5px;
+    text-decoration: none;
+    margin-bottom: 1rem;
+
+    h2{
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    &:hover{
+        background-color: black;
+        color: $color-dorado;
+        border-color: $color-dorado;
+        border: solid 5px;
+    }
+    
+}
+.galeria{
+    @extend %galeria;
+    padding-bottom: 1rem;
+}
+.galdeimg{
+    @extend %galeria;
+    text-align: center;
+    background-color: $color-dorado;
+    margin-bottom: 1rem;
+    @include letra-oscura;
+    width: 100%;
+}

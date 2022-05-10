@@ -1,0 +1,12 @@
+.page{
+    background-color: $color-dorado;
+    border-top: 5px black solid;
+    border-bottom: 5px black solid;
+    h1{
+    background-color: map-get($map: $palette, $key: 'secondary');
+    @include letra-oscura;
+    height: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+    }
+}
